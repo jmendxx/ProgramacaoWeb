@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Alunos - Prática 06</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <nav>
+        <div class="container">
+            <a class="navbar-brand" href="#">Sistema de Alunos</a>
+            <span class="navbar-text">Prática 06 - CRUD</span>
+        </div>
+    </nav>
+
+    <main class="container py-4">
+        <div class="row">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2>Lista de Alunos</h2>
+                <a href="form.html" class="btn btn-success">Adicionar Aluno</a>
+            </div>
+
+            <div id="loading" style="display:none;" class="mb-3"></div>
+            <div id="message" style="display:none;" class="mb-3"></div>
+
+            <div class="card">
+                <div class="card-body p-2">
+                    <div class="table-responsive">
+                        <table id="alunos-table" class="table table-sm table-hover mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nome</th>
+                                    <th>Turma</th>
+                                    <th>Curso</th>
+                                    <th>Matricula</th>
+                                </tr>
+                            </thead>
+                            <tbody id="alunos-table-body">
+                                <!-- Linhas da tabela serão inseridas aqui -->
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer class="bg-white py-3 border-top">
+        <div class="container text-muted">&copy; 2025 - Prática 06 - Programação Web - Newton Paiva</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
