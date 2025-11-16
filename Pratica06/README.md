@@ -183,6 +183,11 @@ curl -i -X DELETE https://proweb.leoproti.com.br/alunos/10
 **Acesse:** http://127.0.0.1:3000/
 
 ---
+## 🌎 Link para o Site Publicado
+
+👉 [Acesse o portfólio aqui](pratica06-taupe.vercel.app)
+
+---
 
 ## 👩‍💻 Autoria
 
