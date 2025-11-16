@@ -185,7 +185,7 @@ curl -i -X DELETE https://proweb.leoproti.com.br/alunos/10
 ---
 ## 🌎 Link para o Site Publicado
 
-👉 [Acesse o portfólio aqui](pratica06-taupe.vercel.app)
+👉 [Acesse o site aqui](pratica06-taupe.vercel.app)
 
 ---
 
