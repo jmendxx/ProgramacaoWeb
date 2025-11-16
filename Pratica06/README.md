@@ -11,7 +11,6 @@ A aplicação demonstra:
 - Separação entre páginas (lista e formulário)
 - Boas práticas de front-end
 
----
 ## 📋 Requisitos Implementados
 
 ### Funcionalidades CRUD
@@ -31,7 +30,6 @@ A aplicação demonstra:
   "matricula": 0
 }
 ```
----
 
 ## 🖥️ Interface do Usuário
 
@@ -43,7 +41,6 @@ A interface foi desenvolvida para ser simples, intuitiva e responsiva. Ela conta
 - **Indicador de carregamento (loading)** para ações assíncronas  
 - **Mensagens de feedback** (sucesso/erro) exibidas automaticamente
 
----
 ## 🔗 API Utilizada
 
 ### Base URL:
@@ -68,8 +65,6 @@ Cria um novo aluno.
 ### ✔ DELETE /alunos/{id} 
 Exclui um aluno pelo ID.
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5:** Estrutura da aplicação
@@ -78,8 +73,6 @@ Exclui um aluno pelo ID.
 - **Fetch API:** Requisições HTTP
 - **Async/Await:** Controle assíncrono
 - **Bootstrap CDN:** Interface visual pronta
-
----
 
 ## 📂 Estrutura do Projeto
 
@@ -93,8 +86,6 @@ Pratica06/
 └── README.md           # Documentação
 ```
 
----
-
 ## ⚡ Atalhos para Seleção de Elementos
 
 Para facilitar a escrita e reduzir repetição no código, foram utilizados atalhos para seleção de elementos do DOM:
@@ -106,8 +97,6 @@ const $ = s => document.querySelector(s);
 // Seleciona todos os elementos que correspondem ao seletor
 const $$ = s => document.querySelectorAll(s);
 ```
-
----
 
 ## 🚀 Como Usar
 
@@ -127,8 +116,6 @@ const $$ = s => document.querySelectorAll(s);
 - Confirme a ação na janela de confirmação.
 - O aluno será removido da lista.
 
----
-
 ## 🔧 Funcionalidades Técnicas
 
 ### ✔ Tratamento de Erros
@@ -145,8 +132,6 @@ const $$ = s => document.querySelectorAll(s);
 - Indicadores de carregamento durante requisições.
 - Mensagens de sucesso e erro exibidas de forma temporária.
 - Confirmação antes de excluir um aluno, evitando remoções acidentais.
-
----
 
 ## 🧪 Exemplos de Requisições cURL
 
@@ -173,7 +158,7 @@ curl -i -X PUT https://proweb.leoproti.com.br/alunos/10 \
 ```bash
 curl -i -X DELETE https://proweb.leoproti.com.br/alunos/10
 ```
----
+
 ## 🖥️ Testando Localmente (evitar CORS)
 
 ### Servidor local recomendado: 
@@ -182,12 +167,9 @@ curl -i -X DELETE https://proweb.leoproti.com.br/alunos/10
 
 **Acesse:** http://127.0.0.1:3000/
 
----
 ## 🌎 Link para o Site Publicado
 
-👉 [Acesse o site aqui](pratica06-taupe.vercel.app)
-
----
+👉 [Acesse o site aqui](https://pratica06-taupe.vercel.app/)
 
 ## 👩‍💻 Autoria
 
