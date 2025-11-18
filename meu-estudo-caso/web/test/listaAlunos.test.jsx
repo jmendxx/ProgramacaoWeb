@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen, waitFor } from "@testing-library/react";
-import ListaAlunos from ".src/page/listaAlunos.jsx";
-import * as alunosService from ".src/api/alunosService.js";
+import ListaAlunos from "../src/pages/listaAlunos.jsx";
+import * as alunosService from "../src/api/alunosService.js";
 import { MemoryRouter } from "react-router-dom";
 import { vi } from "vitest";
 

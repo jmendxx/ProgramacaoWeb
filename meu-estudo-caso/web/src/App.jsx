@@ -11,7 +11,7 @@ export default function App() {
     <>
     <Navbar bg="dark" variant="dark" classNome="mb-3"> 
       <Container>
-        <Navbar.Brand as={Link} to="/">Meu Estudo de Caso</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">Portal do Estudante</Navbar.Brand>
       </Container>
     </Navbar>
 
@@ -22,6 +22,10 @@ export default function App() {
         <Route path='*' element={<h1>404 - Página não encontrada</h1>} />
       </Routes>
      </Container> 
+
+    <footer className="footer">
+        <p>&copy; 2025 - Meu Estudo de Caso  - Programação Web - Newton Paiva </p>
+    </footer>
     </>
   );
 }

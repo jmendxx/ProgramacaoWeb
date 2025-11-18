@@ -37,12 +37,14 @@ export default function DetalesAlunos() {
                 <Card.Text>
                     <strong>ID:</strong> {aluno.id} <br/>
                     <strong>Nome:</strong> {aluno.nome} <br/>
-                    <strong>E-mail:</strong> {aluno.email || "-"} <br/>
-                    <strong>Data de Nascimento:</strong> {aluno.dataNasc} <br/>
+                    <strong>Turma:</strong> {aluno.turma} <br/>
                     <strong>Curso:</strong> {aluno.curso || "-"} <br/>
-                    <strong>Matrícula:</strong> {aluno.dataMatricula || "-"} <br/>
+                    <strong>Matrícula:</strong> {aluno.Matricula || "-"} <br/>
                 </Card.Text>
-                <Button as={Link} to="/" variant="secondary">Voltar</Button>
+
+                <div className="btn-voltar">
+                    <Button as={Link} to="/" variant="secondary">Voltar</Button>
+                </div>
             </Card.Body>
         </Card> 
     );

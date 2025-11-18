@@ -43,8 +43,7 @@ export default function ListaAlunos() {
                     <tr>
                         <th>ID</th>
                         <th>Nome</th>
-                        <th>E-mail</th>
-                        <th>Dethales</th>
+                        <th>Detalhes</th>
                     </tr>
                 </thead>
 
@@ -58,7 +57,6 @@ export default function ListaAlunos() {
                             <tr key={aluno.id}>
                                     <td>{aluno.id}</td>
                                     <td>{aluno.nome}</td>
-                                    <td>{aluno.email || "-"}</td>
                                     <td>
                                         <Link to={`/alunos/${aluno.id}`}>Ver detalhes</Link>
                                     </td>

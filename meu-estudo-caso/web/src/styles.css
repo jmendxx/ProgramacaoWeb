@@ -1,0 +1,136 @@
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+:root {
+  --bg-color: #121212;
+  --bg-secondary: #1e1e1e;
+  --text-color: #e6e6e6;
+  --text-muted: #b5b5b5;
+  --accent: #4c8bf5;
+  --border-color: #353333;
+}
+
+/* ====== TITULOS ====== */
+h1, h2, h3, h4, h5 {
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+h2 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* ====== LINKS ====== */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #4fa3b8;
+  text-decoration: underline;
+  text-decoration: none !important;    
+}
+
+/* ====== TABELA ====== */
+.table {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+.table thead th {
+  background-color: #242424;
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+.table tbody tr {
+  transition: background 0.2s;
+}
+
+.table tbody tr:hover {
+  background-color: #292929;  
+}
+
+.table td,
+.table th {
+  border-color: var(--border-color) !important;
+  vertical-align: middle;
+}
+
+/* ====== ALERTAS ====== */
+.alert {
+  border-radius: 8px;
+}
+
+/* ====== CARDS ====== */
+.card {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-color) !important;
+  border: 1px solid var(--border-color);
+  margin-top: 5px;
+}
+
+.Card.Body .card-text strong {
+  color: var(--text-color);
+}
+
+/* ====== BOTÕES ====== */
+.btn-secondary,
+.btn-dark {
+  background-color: #333;
+  border-color: #444;
+  color: var(--text-color);
+}
+
+.btn-secondary:hover,
+.btn-dark:hover {
+  background-color: #444;
+  border-color: #555;
+}
+
+.btn-voltar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-voltar a {
+  text-decoration: none !important;      
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+  background-color: #0f0f0f !important;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.navbar-brand {
+  color: var(--text-color) !important;
+}
+
+.navbar-brand:hover {
+  color: #4fa3b8 !important;
+}
+
+/* ====== FOOTER ====== */
+.footer {
+  width: 100%;
+  background-color: #1b1b1b; /* combina com navbar dark */
+  color: #cfcfcf;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
