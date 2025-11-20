@@ -117,14 +117,14 @@ A Vercel fornecerá uma URL pública automaticamente.
 
 ## 📚 Créditos / Referências
 
-React — https://react.dev/
-Vite — https://vitejs.dev/
-React Router — https://reactrouter.com/
-Axios — https://axios-http.com/
-React Bootstrap — https://react-bootstrap.github.io/
-Vitest — https://vitest.dev/
-React Testing Library — https://testing-library.com/
-Expo — https://expo.dev/
+React — https://react.dev/  
+Vite — https://vitejs.dev/  
+React Router — https://reactrouter.com/  
+Axios — https://axios-http.com/  
+React Bootstrap — https://react-bootstrap.github.io/  
+Vitest — https://vitest.dev/  
+React Testing Library — https://testing-library.com/  
+Expo — https://expo.dev/  
 React Native — https://reactnative.dev/
 
 ## 🌎 Link para o Site Publicado
