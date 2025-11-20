@@ -126,3 +126,12 @@ Vitest — https://vitest.dev/
 React Testing Library — https://testing-library.com/
 Expo — https://expo.dev/
 React Native — https://reactnative.dev/
+
+## 🌎 Link para o Site Publicado
+
+👉 [Acesse o site aqui](https://programacao-web-gilt.vercel.app/)
+
+## 👩‍💻 Autoria
+
+Desenvolvido por **Juliana Mendes**.
+Disciplina: **Programação Web – Newton Paiva**.
