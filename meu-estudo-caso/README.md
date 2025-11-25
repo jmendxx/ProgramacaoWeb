@@ -133,5 +133,5 @@ React Native — https://reactnative.dev/
 
 ## 👩‍💻 Autoria
 
-Desenvolvido por **Juliana Mendes**.
+Desenvolvido por **Juliana Mendes**.  
 Disciplina: **Programação Web – Newton Paiva**.
