@@ -1,0 +1,84 @@
+:root{
+  --bg: #f5f7fb;
+  --card: #ffffff;
+  --accent: #4f46e5;
+  --text: #111827;
+  --muted: #6b7280;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, #eef2ff 0%, var(--bg) 100%);
+  color:var(--text);
+  display:flex;
+  justify-content:center;
+  padding:40px;
+}
+
+.app{
+  width:100%;
+  max-width:900px;
+  background:var(--card);
+  border-radius:12px;
+  padding:24px;
+  box-shadow: 0 6px 20px rgba(15,23,42,0.08);
+}
+
+h1{
+  margin:0 0 16px;
+  font-size:1.6rem;
+  color:var(--accent);
+}
+
+.game{
+  display:flex;
+  gap:24px;
+  align-items:flex-start;
+}
+
+.board{
+  display:grid;
+  grid-template-columns:repeat(3, 80px);
+  grid-template-rows:repeat(3, 80px);
+  gap:10px;
+  padding:10px;
+  background: linear-gradient(180deg,#fff,#f8fafc);
+  border-radius:8px;
+}
+
+.square{
+  width:80px;
+  height:80px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:32px;
+  font-weight:700;
+  border-radius:8px;
+  border:2px solid rgba(15,23,42,0.06);
+  background:transparent;
+  cursor:pointer;
+  transition:transform .08s ease, box-shadow .08s ease;
+}
+.square:hover{ transform:translateY(-2px) }
+.square.filled{ background: linear-gradient(180deg, rgba(79,70,229,0.08), rgba(79,70,229,0.02));}
+
+.info{ min-width:200px; }
+.status{ font-weight:600; margin-bottom:12px; color:var(--muted) }
+.controls button{
+  display:inline-block;
+  margin-right:8px;
+  padding:8px 10px;
+  border-radius:8px;
+  border:1px solid rgba(15,23,42,0.08);
+  background:#fff;
+  cursor:pointer;
+}
+.scoreboard{ margin-top:16px; padding:10px; background:#f8fafc; border-radius:8px; }
+.history{ margin-top:12px; }
+.history ol{ padding-left:16px; margin:0; }
+.history button{ padding:6px 8px; margin-top:6px; border-radius:6px; border:1px solid rgba(15,23,42,0.06); background:#fff; cursor:pointer;}
+.history button.active{ background:var(--accent); color:#fff; border-color:var(--accent); }
+footer small{ color:var(--muted) }
